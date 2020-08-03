@@ -1,0 +1,82 @@
+parms
+    wc += gu;
+    chk_both_strs = 0;
+
+descr
+    h5(minlen = 3, tag = 'P1a')
+
+        ss(minlen = 3, tag = 'l-1a1b-1')
+
+        h5(minlen = 4, tag = 'P1b')
+
+            ss(minlen = 3, tag = 'P1-loop')
+
+        h3(tag = 'P1b')
+
+        ss(minlen = 3, tag = 'l-1a1b-2')
+
+    h3(tag = 'P1a')
+
+    ss(minlen = 2, maxlen = 5, tag = 'l-P1P2')
+
+    h5(minlen = 4, maxlen = 7, tag = 'P2-1')
+
+        ss(minlen = 1, maxlen = 1, tag = 'b-P2')
+
+        h5(minlen = 2, maxlen = 4, tag = 'P2-2')
+
+            ss(minlen = 1, maxlen = 3, tag = 'l-P2P3')
+
+            h5(minlen = 2, maxlen = 4, tag = 'P3-1')
+
+                h5(minlen = 2, maxlen = 4, tag = 'P3-2')
+
+                    ss(minlen = 1, maxlen = 3, tag = 'l-P3P4')
+
+                    h5(minlen = 2, tag = 'P4')
+
+                        ss(minlen = 1, tag = 'P4-loop')
+
+                    h3(tag = 'P4')
+
+                    ss(minlen = 1, maxlen = 3, tag = 'l-P4P5')
+
+                    h5(minlen = 8, maxlen = 10, tag = 'P5')
+
+                        ss(minlen = 3, tag = 'P5-loop')
+
+                    h3(tag = 'P5')
+
+                    ss(minlen = 2, maxlen = 6, tag = 'l-P5P3')
+
+                h3(tag = 'P3-2')
+
+                ss(minlen = 1, maxlen = 1, tag = 'b-P3')
+
+            h3(tag = 'P3-1')
+
+            h5(minlen = 2, maxlen = 4, tag = 'P6-1')
+
+                ss(minlen = 1, maxlen = 3, tag = 'b-P6-1')
+
+                h5(minlen = 2, maxlen = 4, tag = 'P6-2')
+
+                    ss(seq = "^N$", tag = 'A730')
+
+                    h5(minlen = 8, maxlen = 12, tag = 'P6-3')
+
+                        ss(minlen = 1, tag = 'P6-loop')
+
+                    h3(tag = 'P6-3')
+
+                    ss(seq = "^NNN$", tag = 'A730-loop')
+
+                h3(tag = 'P6-2')
+
+            h3(tag = 'P6-1')
+
+            ss(minlen = 3, maxlen = 6, tag = 'l-P6P2')
+
+        h3(tag = 'P2-2')
+
+    h3(tag = 'P2-1')

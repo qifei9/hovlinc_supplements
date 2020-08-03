@@ -1,0 +1,26 @@
+parms
+    wc += gu;
+    chk_both_strs = 0;
+
+descr
+    h5(minlen = 4, tag = 'P1')
+
+        ss(seq = "^ACC$", tag = 'S1-1')
+
+            h5(minlen = 4, tag = 'P2')
+
+                ss(minlen = 5, maxlen = 100, tag = 'S2-1')
+
+                    h5(minlen = 3, tag = 'P4')
+
+                        ss(seq = "^GTNNNAAGNC$", tag = 'S3')
+
+                    h3(tag = 'P4')
+
+                ss(minlen = 2, maxlen = 50, tag = 'S2-2')
+
+            h3(tag = 'P2')
+
+        ss(seq = "^GANNN$", tag = 'S1-2')
+
+    h3(tag = 'P1')

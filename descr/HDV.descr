@@ -1,0 +1,24 @@
+parms
+    wc += gu;
+    chk_both_strs = 0;
+
+descr
+    h5(minlen = 4, tag = 'P1')
+
+        ss(minlen = 0, tag = 'J1/2')
+
+            h5(minlen = 4, tag = 'P2')
+
+                h5(minlen = 1, tag = 'P3')
+
+                    ss(seq = "^TYYHYDH\{0,1\}Y", tag = 'L3')
+
+                h3(tag = 'P3')
+
+    h3(tag = 'P1')
+
+    ss(seq = "^R", minlen = 3, maxlen = 200, tag = 'P1.1&J1.1/4&P4')
+
+    ss(seq = "^YNR", minlen = 4, maxlen = 6, tag = 'J4/2')
+
+    h3(tag = 'P2')

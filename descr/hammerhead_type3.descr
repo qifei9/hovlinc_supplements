@@ -1,0 +1,26 @@
+parms
+    wc += gu;
+    chk_both_strs = 0;
+
+descr
+    h5(seq = "T$", minlen = 1, tag = 'HIII')
+
+        ss(seq = "^A$", tag = 'cs')
+
+            h5(seq = "^C", minlen = 1, tag = 'HI')
+
+                ss(minlen = 1, maxlen = 200, tag = 'HI_loop')
+
+            h3(tag = 'HI')
+
+        ss(seq = "^N\{0,2\}[CT][TC]GAN[GA][AT]$", tag = 'Ubox')
+
+            h5(minlen = 1, tag = 'HII')
+
+                ss(minlen = 1, maxlen = 200, tag = 'HII_loop')
+
+            h3(tag = 'HII')
+
+        ss(seq = "^G[AG]", minlen = 3, maxlen = 4, tag = 'Pbox')
+
+    h3(tag = 'HIII')

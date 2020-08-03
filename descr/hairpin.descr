@@ -1,0 +1,34 @@
+parms
+    wc += gu;
+    chk_both_strs = 0;
+
+descr
+    h5(seq = "AT$", minlen = 3, maxlen = 10, tag = 'p1-1')
+
+        ss(seq = "^AC", minlen = 4, maxlen = 4, tag = 'il-p1-1')
+
+        h5(minlen = 2, maxlen = 50, tag = 'p1-2')
+
+            ss(minlen = 1, maxlen = 100, tag = 'p1-loop')
+
+        h3(tag = 'p1-2')
+
+        ss(seq = "G", minlen = 4, maxlen = 4, tag = 'il-p1-2')
+
+    h3(tag = 'p1-1')
+
+    ss(minlen = 0, maxlen = 0, tag = 'l-p1p2')
+
+    h5(minlen = 3, maxlen = 10, tag = 'p2-1')
+
+        ss(seq = "C", minlen = 6, maxlen = 8, tag = 'il-p2-1')
+
+        h5(minlen = 5, maxlen = 10, tag = 'p2-2')
+
+            ss(minlen = 1, maxlen = 100, tag = 'p2-loop')
+
+        h3(tag = 'p2-2')
+
+        ss(seq = "A", minlen = 8, maxlen = 10, tag = 'il-p2-2')
+
+    h3(tag = 'p2-1')

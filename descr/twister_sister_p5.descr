@@ -1,0 +1,32 @@
+parms
+    wc += gu;
+    chk_both_strs = 0;
+
+descr
+    h5(minlen = 3, tag = 'P5')
+
+        ss(minlen = 0, maxlen = 5, tag = 'S-P5P2')
+
+        h5(minlen = 3, tag = 'P2')
+
+            ss(seq = "^GCUACC", maxlen = 8, tag = 'S1-1')
+
+            h5(minlen = 2, tag = 'P1')
+
+                ss(minlen = 1, maxlen = 50, tag = 'P1-loop')
+
+            h3(tag = 'P1')
+
+            ss(seq = "^NCNAG$", tag = 'S1-2')
+
+        h3(tag = 'P2')
+
+        ss(minlen = 1, maxlen = 50, tag = 'S-P2P4')
+
+        h5(minlen = 3, tag = 'P4')
+
+            ss(seq = "^GNGNANGNC$", tag = 'P4-loop')
+
+        h3(tag = 'P4')
+
+    h3(tag = 'P5')
