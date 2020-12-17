@@ -1,5 +1,7 @@
 # hovlinc_supplements
 
+[![DOI](https://zenodo.org/badge/284808152.svg)](https://zenodo.org/badge/latestdoi/284808152)
+
 Some supplementary files for the hovlinc paper.
 
 ## descr
