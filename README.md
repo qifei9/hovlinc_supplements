@@ -4,7 +4,7 @@
 
 Some supplementary files for the hovlinc paper:
 
-Yue Chen<sup>#</sup>, Fei Qi<sup>#</sup>\*, Fan Gao, Huifen Cao, Dongyang Xu, Kourosh Salehi-Ashtiani, and Philipp Kapranov\*. Hovlinc is a recently evolved class of ribozyme found in human lncRNA. ***Nat Chem Biol*** (2021). https://doi.org/10.1038/s41589-021-00763-0
+Yue Chen<sup>#</sup>, Fei Qi<sup>#</sup>\*, Fan Gao, Huifen Cao, Dongyang Xu, Kourosh Salehi-Ashtiani, and Philipp Kapranov\*. Hovlinc is a recently evolved class of ribozyme found in human lncRNA. ***Nat Chem Biol*** 17(5), 601–607 (2021). https://doi.org/10.1038/s41589-021-00763-0
 
 ## alignments
 
